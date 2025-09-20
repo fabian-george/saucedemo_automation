@@ -3,6 +3,8 @@ class TestData:
 
     HEADLESS = False
 
+    WAIT_TIME = 3
+
     VALID_USERNAME = "standard_user"
     VALID_PASSWORD = "secret_sauce"
 

@@ -1,6 +1,9 @@
+import time
+
 from selenium.webdriver.common.by import By
 
 from pages.base_page import BasePage
+from utilities.test_data import TestData
 
 
 class CheckoutPage(BasePage):
@@ -31,6 +34,7 @@ class CheckoutPage(BasePage):
         self.enter_first_name(first_name)
         self.enter_last_name(last_name)
         self.enter_postal_code(postal_code)
+        time.sleep(TestData.WAIT_TIME)
         self.click_continue()
 
     def click_finish(self):
