@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDE / Editor settings
+.idea/
+.vscode/
+*.iml
+
+# Pytest / Allure cache and reports
+.pytest_cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
